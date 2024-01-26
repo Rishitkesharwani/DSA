@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class bubble_shorting {
     public static void shorting(int[] array){
         for (int turn = 0; turn <array.length-1 ; turn++) {
-            for (int i = 0; i < array.length-1 ; i++) {
+            for (int i = 0; i < array.length-1-turn ; i++) {
                 if (array[i]>array[i+1]){
                     int temp=array[i];
                     array[i]=array[i+1];
