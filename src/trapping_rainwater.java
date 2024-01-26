@@ -29,7 +29,7 @@ public static int volume_of_Water(int[] height,int width){
         for (int  i= 0; i <height.length ; i++) {
             height[i]=sc.nextInt();
         }
-        System.out.println("Enter the width: ");
+        System.out.print("Enter the width: ");
         int width=sc.nextInt();
         System.out.println(volume_of_Water(height,width));
     }
