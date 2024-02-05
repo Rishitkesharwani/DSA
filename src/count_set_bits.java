@@ -11,7 +11,8 @@ public class count_set_bits {
     }
 
     public static void main(String[] args) {
-        System.out.println(countSetBit(10));
+//        System.out.println(countSetBit(10));
+        System.out.println(countSetBit(15));
 
     }
 }
