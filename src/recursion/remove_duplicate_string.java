@@ -18,7 +18,7 @@ public class remove_duplicate_string {
     }
 
     public static void main(String[] args) {
-        String str="acbbbgbgcdb";
+        String str="acbbbgbgfxcdb";
         StringBuilder sb=new StringBuilder();
         removeDublicates(str,0,sb,new boolean[26]);
     }
