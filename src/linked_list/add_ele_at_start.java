@@ -11,7 +11,7 @@ public class add_ele_at_start {
     }
     public static node head;
     public static node tail;
-    public static void addFirst(int data){
+    public void addFirst(int data){
         // Step1 create new node
         node newnode=new node(data);
         if(head==null){
@@ -27,12 +27,13 @@ public class add_ele_at_start {
 
     public static void main(String[] args) {
         add_ele_at_start ll=new add_ele_at_start();
-        addFirst(1);
+        ll.addFirst(1);
         System.out.println(add_ele_at_start.head.data);
         add_ele_at_start ab=new add_ele_at_start();
-        addFirst(3);
+        ll.addFirst(3);
         System.out.println(add_ele_at_start.head.data);
         System.out.println(add_ele_at_start.head.next.data);
+
 
     }
 
