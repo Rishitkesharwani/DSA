@@ -11,16 +11,17 @@ public class add_ele_last {
     }
     public static Node head;
     public static Node tail;
+
     public void atLast(int val){
         Node newNode=new Node(val);
         if (head==null){
             head=tail=newNode;
             return;
         }
-        newNode.next=tail;
-        tail=newNode;
+        tail.next = newNode;
+        tail = newNode;
     }
-public static void print(){
+public  void print(){
         if(head==null){
             System.out.println("linked list is empty: ");
         }
@@ -32,16 +33,20 @@ public static void print(){
     System.out.println();
 }
     public static void main(String[] args) {
-        add_ele_last newNode=new add_ele_last();
-        newNode.atLast(12);
-        print();
-        newNode.atLast(15);
-        newNode.atLast(14);
-        print();
-        newNode.atLast(17);
+        add_ele_last ll=new add_ele_last();
+        ll.atLast(2);
+        ll.print();
+        ll.atLast(15);
+       ll.print();
+        ll.atLast(14);
+        ll.print();
+        ll.atLast(17);
+       ll.print();
 //        add_ele_last temp=new add_ele_last();
 
 
     }
 
 }
+
+
