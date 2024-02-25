@@ -39,7 +39,6 @@ public class dll_insert_atLast {
         newnode.next=null;
         tail=newnode;
 
-        tail=newnode;
 
 
     }
