@@ -36,7 +36,7 @@ public class dll_insert_atLast {
             return;
         }
         tail.next=newnode;
-        newnode.next=null;
+        newnode.prev = tail;
         tail=newnode;
 
 
