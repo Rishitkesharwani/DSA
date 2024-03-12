@@ -10,7 +10,7 @@ public class fact_of_num {
         return fac;
     }
     public static void main(String[] args) {
-        int n=5;
+        int n=50;
         System.out.println(fact(n));
 
     }
