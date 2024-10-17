@@ -13,5 +13,8 @@ public class insertion_short {
         for(int i=0;i<arr.length;i++){
             System.out.print(arr[i]+" ");
         }
+//         Time complexity O(n^2)
+//        Space complexity O(1)
+
     }
 }
